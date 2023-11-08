@@ -14,15 +14,11 @@ The current maintenance plan for this library is:
 
 D4RL can be installed by cloning the repository as follows:
 ```
-git clone https://github.com/Farama-Foundation/d4rl.git
+git clone https://github.com/junsu-kim97/d4rl.git
 cd d4rl
 pip install -e .
 ```
 
-Or, alternatively:
-```
-pip install git+https://github.com/Farama-Foundation/d4rl@master#egg=d4rl
-```
 
 The control environments require MuJoCo as a dependency. You may need to obtain a [license](https://www.roboti.us/license.html) and follow the setup instructions for mujoco_py. This mostly involves copying the key to your MuJoCo installation folder.
 
