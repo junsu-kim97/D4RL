@@ -31,7 +31,7 @@ class KitchenBase(KitchenTaskRelaxV1, OfflineEnv):
     # A string of element names. The robot's task is then to modify each of
     # these elements appropriately.
     TASK_ELEMENTS = []
-    REMOVE_TASKS_WHEN_COMPLETE = False
+    REMOVE_TASKS_WHEN_COMPLETE = True
     TERMINATE_ON_TASK_COMPLETE = False
 
     def __init__(self, dataset_url=None, ref_max_score=None, ref_min_score=None, **kwargs):
